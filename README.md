@@ -1,1 +1,14 @@
-# web-scraping-instagram-for-getting-data-about-masters
+# Instagram parser for getting data about masters
+
+Цей парсер автоматизує пошук профілів в Instagram за ключовими словами (наприклад, "візажист україна") і збирає базову інформацію про користувачів.
+
+# Можливості парсера
+- Автоматичний логінування в Instagram через Selenium WebDriver.
+- Пошук профайлів за заданим ключовим словом.
+- Автоматичний збір даних про:
+   - nickname користувача;
+   - ім'я;
+   - біографію;
+   - кількість підписників;
+   - його навички та вміння;
+- Збереження результатів у вигляді файлу Microsoft Excel (.xlsx) ("instagram_parser_for_getting_data_about_masters.xlsx")
