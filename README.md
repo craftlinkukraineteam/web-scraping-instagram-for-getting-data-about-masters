@@ -22,8 +22,10 @@
 
 # Як запустити
 Встановіть залежності через консоль JetBrains PyCharm: 
+
 ```pip install selenium webdriver-manager pandas```
 
 # Запустіть скрипт
-Запустіть скрипт через консоль JetBrains PyCharm: 
+Запустіть скрипт через консоль JetBrains PyCharm:
+
 ```python.exe parser.py```
