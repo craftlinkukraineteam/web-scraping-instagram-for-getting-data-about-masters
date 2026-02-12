@@ -12,3 +12,8 @@
    - кількість підписників;
    - його навички та вміння;
 - Збереження результатів у вигляді файлу Microsoft Excel (.xlsx) ("instagram_parser_for_getting_data_about_masters.xlsx")
+
+# Як запустити
+Встановіть залежності через консоль Intellij PyCharm: 
+
+```pip install selenium webdriver-manager pandas```
