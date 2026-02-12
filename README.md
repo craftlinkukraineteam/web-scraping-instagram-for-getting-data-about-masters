@@ -13,7 +13,14 @@
    - його навички та вміння;
 - Збереження результатів у вигляді файлу Microsoft Excel (.xlsx) ("instagram_parser_for_getting_data_about_masters.xlsx")
 
+# Технології, які використовуються
+- Python 3;
+- Selenium;
+- WebDriver Manager;
+- Pandas;
+- Google Chrome;
+
 # Як запустити
-Встановіть залежності через консоль Intellij PyCharm: 
+Встановіть залежності через консоль JetBrains PyCharm: 
 
 ```pip install selenium webdriver-manager pandas```
