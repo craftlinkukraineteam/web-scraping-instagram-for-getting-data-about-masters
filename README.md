@@ -20,12 +20,12 @@
 - Pandas;
 - Google Chrome;
 
-# Як запустити
+# Встановити залежності
 Встановіть залежності через консоль JetBrains PyCharm: 
 
 ```pip install selenium webdriver-manager pandas```
 
-# Запустіть скрипт
+# Запустити скрипт
 Запустіть скрипт через консоль JetBrains PyCharm:
 
 ```python.exe parser.py```
