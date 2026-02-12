@@ -30,7 +30,7 @@ def login():
 login()
 
 search = wait.until(expected_conditions.element_to_be_clickable((By.XPATH, "//input[@placeholder='Search']")))
-search.send_keys("візажист україна")
+search.send_keys("візажист Харків")
 time.sleep(2)
 search.send_keys(Keys.ENTER)
 time.sleep(2)
@@ -80,7 +80,7 @@ for profile in list(profiles)[:20]:
         print(f"Помилка для {profile}: {e}")
 
 df = pd.DataFrame(data)
-df.to_excel("makeup_artists_ukraine.xlsx", index = False)
-df.to_excel("makeup_artists_ukraine.xlsx", index = False)
+df.to_excel("instagram_parser_for_getting_data_about_masters.xlsx", index = False)
+df.to_excel("instagram_parser_for_getting_data_about_masters.xlsx", index = False)
 
 driver.quit()
